@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #FFFFFF;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 22px;
+}
+
+.form {
+  display: flex;
+  gap: 42px;
+  margin-bottom: 60px;
+}
+.form .search-input {
+  width: 100%;
+  padding: 16px 0px 16px 33px;
+  font-size: 24px;
+  line-height: 29px;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  border: transparent;
+  border-radius: 5px;
+}
+.form .search-input:focus {
+  box-shadow: 0px 0px 4px 4px rgba(0, 169, 199, 0.806);
+  border: transparent;
+}
+.form .search-btn {
+  cursor: pointer;
+  padding: 17px 40px 16px 39px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  background-color: #111111;
+  border: transparent;
+  border-radius: 12px;
+}
+.form .search-btn:hover {
+  opacity: 90%;
+}
+.form .search-btn:active {
+  background-color: rgb(29, 29, 29);
+}
+
+.description {
+  height: 100%;
+  padding: 37px 32px;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.11);
+  border-radius: 14px;
+}
+.description dl .termin {
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 23px;
+}
+.description dl dd {
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+.description dl dd p {
+  font-style: italic;
+  font-weight: 500;
+  line-height: 19px;
+  margin-top: 25px;
+}
+.description audio {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.description-place, .not-found-text {
+  text-align: center;
+  font-size: 36px;
+  line-height: 44px;
+  color: rgb(22, 22, 22);
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader-wrapper .loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #000;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  -webkit-animation: rotation 1s linear infinite;
+          animation: rotation 1s linear infinite;
+}
+@-webkit-keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=main.css.map */
